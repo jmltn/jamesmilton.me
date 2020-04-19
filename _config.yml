@@ -1,0 +1,61 @@
+# Site setings
+name: 'James Milton'
+description: 'Stay Stoked'
+# Sidebar about text
+site_description: 'Welcome to my website. It features topics such as design, video, travel & code. This blog is about finding balance in life, living with purpose, having fun, and doing what you love.'
+logo:
+favicon: 'assets/images/favicon.ico'
+baseurl:
+production_url: https://jamesmilton.me/
+disqus: 'james-milton'
+mailchimp_url:
+# Add your GA Tracking Id
+ga_analytics:
+
+# Contact form setings
+email: james.milton@me.com
+contact_page_description: "Shoot me a message!"
+thankyou_page_description: "Your message has been successfully sent. I will contact you very soon!"
+
+# Social links
+twitter:
+facebook:
+github: 'jmltn'
+codepen:
+dribbble:
+medium:
+instagram: 'james.jpg'
+pinterest:
+linkedin: 'jmltn'
+
+# Navigation
+navigation:
+  - text: Portfolio
+    url: /
+  - text: About
+    url: /about/
+  - text: Contact Me
+    url: /contact/
+
+# Required Plugins
+plugins_dir:
+  - jekyll-paginate
+  - jekyll-tagsgenerator
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-author-page
+
+# Pagination
+paginate: 6
+paginate_path: /page:num/
+
+# Permalinks
+permalink: /:title
+
+# Other
+markdown: kramdown
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
