@@ -1,6 +1,4 @@
-# Forma Jekyll Theme v1.1.0
 
-[Theme Live Demo](https://forma.netlify.com/)
 
 ## Features
 
