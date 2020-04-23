@@ -5,7 +5,7 @@ description: 'Stay Stoked'
 site_description: 'Welcome to my website. It features topics such as design, video, travel & code. This blog is about finding balance in life, living with purpose, having fun, and doing what you love.'
 logo:
 favicon: 'assets/images/favicon.ico'
-baseurl: https://jmltn.github.io/new.jamesmilton.me
+baseurl: 
 production_url: https://jamesmilton.me/
 disqus: 'james-milton'
 mailchimp_url:

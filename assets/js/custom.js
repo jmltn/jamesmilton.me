@@ -211,8 +211,8 @@
 	    get: 'user',
 	    limit: 6,
 	    resolution: 'standard_resolution',
-	    userId: '441902919',
-	    accessToken: '441902919.1677ed0.ab9040eff64249dcbfb19b6d48b4e909',
+	    userId: '25523369',
+	    accessToken: '25523369.a71d3f8.df12b746b5384086a9c241d6823447a9',
 	    template:
 	      '<div class="instagram-item"><a href="{{link}}" title="{{caption}}" aria-label="{{caption}}" target="_blank"><img src="{{image}}"></a></div>'
 	  });
