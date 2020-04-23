@@ -30,10 +30,10 @@ linkedin: 'jmltn'
 
 # Navigation
 navigation:
-  - text: Portfolio
+  - text: Home
     url: /
-  - text: About
-    url: /about/
+  - text: Portfolio
+    url: /portfolio/
   - text: Contact Me
     url: /contact/
 
@@ -47,7 +47,7 @@ plugins_dir:
 
 # Pagination
 paginate: 6
-paginate_path: /page:num/
+paginate_path: "/portfolio/page:num/"
 
 # Permalinks
 permalink: /:title

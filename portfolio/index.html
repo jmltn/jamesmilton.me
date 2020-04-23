@@ -1,0 +1,21 @@
+---
+layout: default
+title: Portfolio
+---
+
+<div id="content" class="site-content">
+    <!-- Slider -->
+    {% if page.url == "/portfolio/" %}
+        {% include featuredbox.html %}
+    {% endif %}
+    <!-- Posts Index -->
+    <main id="main" class="site-main inner">
+        <div id="post-wrapper" class="post-wrapper">
+            {% for post in paginator.posts %}
+                {% include postbox.html %}
+            {% endfor %}
+        </div><!-- .post-wrapper -->
+        <!-- Pagination-->
+        {% include pagination.html %}
+    </main>
+</div>

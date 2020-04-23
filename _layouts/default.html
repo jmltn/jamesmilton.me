@@ -22,6 +22,7 @@
 
     <!-- CSS Styles -->
     <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet">
+    {% include slider_styles.html %}
 </head>
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
@@ -49,8 +50,9 @@
     <!-- Javascript Assets -->
     <script src="{{ site.baseurl }}/assets/js/jquery-3.2.1.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/plugins.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/instafeed.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/custom.js"></script>
-
+    {% include slider_scripts.html %}
 </body>
 
 </html>
