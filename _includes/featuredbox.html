@@ -7,7 +7,7 @@
             <div>
                 <div class="slide-inner">
                     {% if post.featured_image %}
-                        <div class="slide-bg" style="background-image: url({{ post.featured_image }})"></div>
+                        <div class="slide-bg" style="background-image: url({{ site.baseurl }}{{ post.featured_image }})"></div>
                     {% endif %}
                     <div class="slide-overlay">
                         <h2 class="entry-title">
