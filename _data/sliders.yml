@@ -11,3 +11,44 @@
   settings:
     height: "'auto'"
     effect: "'fade'"
+
+- selector: example_slider1
+  bullets: true
+  captions: true
+  images:
+    - src: /assets/images/posts/2018/1.jpg
+      title: Balloons!
+      alt: This slider has caption titles
+    - data-src: /assets/images/posts/2018/2.jpg
+      title: This slider uses the fade effect
+      alt: Instead of the default slide effect
+    - data-src: /assets/images/posts/2018/3.jpg
+      data-src-2x: /assets/images/posts/2018/3.jpg
+    - src: /assets/images/posts/2018/4.jpg
+      title: Last image had no caption!
+      alt: Also, this image has no link
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+
+- selector: example_slider2
+  images:
+    - src: /assets/images/posts/2018/1.jpg
+      alt: image one
+    - src: /assets/images/posts/2018/2.jpg
+      alt: image two
+    - src: /assets/images/posts/2018/3.jpg
+      alt: image three
+    - src: /assets/images/posts/2018/4.jpg
+      alt: image four
+  settings:
+    height: "'auto'"
+    disableNav: true
+    initialHeight:
+    maxHeight:
+    interval:
+    transitionDuration:
+    effect:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:

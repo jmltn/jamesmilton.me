@@ -2,7 +2,7 @@
     <div class="post-inside">
         {% if post.featured_image %}
             <a class="post-thumbnail" href="{{ post.url | absolute_url }}">
-                <img src="{% if post.featured_image contains ' :// ' %}{{ post.featured_image }}{% else %}{{ post.featured_image | absolute_url }}{% endif %}"
+                <img src="{% if post.featured_image contains ' :// ' %}{{ post.featured_image }}{% else %}{{ site.baseurl }}{{ post.featured_image }}{% endif %}"
                     alt="{{ post.title }}">
             </a>
         {% endif %}
