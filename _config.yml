@@ -59,3 +59,11 @@ markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
+
+defaults:
+- scope:
+    path: ''
+    type: author
+  values:
+    permalink: "/authors/:title/"
+    layout: author
