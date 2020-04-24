@@ -207,18 +207,5 @@
 	}
 	setTimeout(render, 500);
 
-	var instagramFeed = new Instafeed({
-	    get: 'user',
-	    limit: 6,
-	    resolution: 'standard_resolution',
-	    userId: '441902919',
-	    accessToken: '441902919.1677ed0.ab9040eff64249dcbfb19b6d48b4e909',
-	    template:
-	      '<div class="instagram-item"><a href="{{link}}" title="{{caption}}" aria-label="{{caption}}" target="_blank"><img src="{{image}}"></a></div>'
-	  });
-
-	if ($('#instafeed').length) {
-	    instagramFeed.run();
-    }
 
 })(jQuery);

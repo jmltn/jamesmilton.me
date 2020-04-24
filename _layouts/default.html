@@ -31,7 +31,7 @@
     <div id="page" class="site">
         {% include header.html %}
         {{ content }}
-        
+
         {% if paginator.total_posts > site.paginate %}
             {% if page.class == 'tag-template' %}
             {% include tag-pagination.html %}
@@ -39,7 +39,7 @@
             {% include author-pagination.html %}
             {% endif %}
         {% endif %}
-        
+
         {% include sidebar.html %}
         {% include footer.html %}
 
@@ -50,7 +50,6 @@
     <!-- Javascript Assets -->
     <script src="{{ site.baseurl }}/assets/js/jquery-3.2.1.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/plugins.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/instafeed.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/custom.js"></script>
     {% include slider_scripts.html %}
 </body>

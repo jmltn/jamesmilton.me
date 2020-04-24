@@ -15,7 +15,3 @@ In addition to exploring design and code, James is a keen [videoographer](https:
 Take a look at his [résumé](https://drive.google.com/file/d/1meFAdxZk85ijy1dmp-P3f6xIMR_sW6NW/view). If you like what you see, send over an [email](mailto:james.milton@me.com), or find him on [Instagram](https://www.instagram.com/james.jpg/), [Youtube](https://www.youtube.com/channel/UC4G3WR8U8Uk0OY62jD1Ut_w) or [Linkedin](https://www.linkedin.com/in/jmltn/).
 
 *Stay stoked*
-
-{% include featuredbox.html %}
-
-
