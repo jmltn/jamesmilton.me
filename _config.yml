@@ -67,3 +67,9 @@ defaults:
   values:
     permalink: "/authors/:title/"
     layout: author
+- scope:
+    path: ''
+    type: tag
+  values:
+    permalink: "/tag/:title/"
+    layout: tag
