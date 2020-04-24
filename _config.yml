@@ -65,8 +65,9 @@ defaults:
     path: ''
     type: author
   values:
-    permalink: "/authors/:title/"
+    permalink: "/author/:title/"
     layout: author
+    author: james
 - scope:
     path: ''
     type: tag
