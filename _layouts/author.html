@@ -4,44 +4,45 @@ current: author
 title: Author Page
 class: 'author-template'
 ---
+{% assign author = site.authors | where: 'title', page.title | first %}
+{% assign post_size = site.posts.size | where: 'author', page.title %}
 
 <div id="content" class="site-content">
     <main id="main" class="site-main inner">
-        {% for author in site.data.authors %}
-        {% if author[1].username == page.author %}
+        {% if author %}
         <header class="page-header">
             <h1 class="page-title">
-                {% if paginator.total_posts == 0 %}No posts{% elsif paginator.total_posts == 1 %}1 post{%
-                else %}{{ paginator.total_posts }} posts{% endif %} by
-                <span class="vcard highlight">{{ author[1].name }}</span>
+                {% if post_size == 0 %}No posts{% elsif post_size == 1 %}1 post{%
+                else %}{{ post_size }} posts{% endif %} by
+                <span class="vcard highlight">{{ author.name }}</span>
             </h1>
             <div class="author-box">
                 <div class="author-info">
-                    {% if author[1].picture %}
+                    {% if author.picture %}
                     <div class="avatar-container">
-                        <img class="avatar" src="{{ site.baseurl }}{{ author[1].picture }}" alt="{{ page.author }}" />
+                        <img class="avatar" src="{{ site.baseurl }}{{ author.picture }}" alt="{{ page.author }}" />
                     </div>
                     {% endif %}
                     <div class="author-details">
-                        <h2 class="author-title">{{ author[1].name }}</h2>
-                        {% if author[1].bio %}
-                        <p class="author-description">{{ author[1].bio }}</p>
+                        <h2 class="author-title">{{ author.name }}</h2>
+                        {% if author.bio %}
+                        <p class="author-description">{{ author.bio }}</p>
                         {% endif %}
                         <div class="author-links">
-                            {% if author[1].url %}
-                            <a href="{{ author[1].url_full }}" target="_blank" rel="noopener">
+                            {% if author.url %}
+                            <a href="{{ author.url_full }}" target="_blank" rel="noopener">
                                 <i class="fa-globe" aria-hidden="true"></i>
                                 <span class="screen-reader-text">Website</span>
                             </a>
                             {% endif %}
-                            {% if author[1].facebook %}
-                            <a href="https://facebook.com/{{ author[1].facebook }}" target="_blank" rel="noopener">
+                            {% if author.facebook %}
+                            <a href="https://facebook.com/{{ author.facebook }}" target="_blank" rel="noopener">
                                 <i class="fa-facebook" aria-hidden="true"></i>
                                 <span class="screen-reader-text">Facebook</span>
                             </a>
                             {% endif %}
-                            {% if author[1].twitter %}
-                            <a href="https://twitter.com/{{ author[1].twitter }}" target="_blank" rel="noopener">
+                            {% if author.twitter %}
+                            <a href="https://twitter.com/{{ author.twitter }}" target="_blank" rel="noopener">
                                 <i class="fa-twitter" aria-hidden="true"></i>
                                 <span class="screen-reader-text">Twitter</span>
                             </a>
@@ -52,11 +53,11 @@ class: 'author-template'
             </div><!-- .author-box -->
         </header>
         {% endif %}
-        {% endfor %}
         <!-- /author -->
+        {% assign posts = site.posts | where: 'author', page.title %}
         <div id="post-wrapper" class="post-wrapper">
-        {% for post in paginator.posts %}
-            {% include postbox.html %}
+        {% for post in posts %}
+          {% include postbox.html %}
         {% endfor %}
         </div><!-- .post-wrapper -->
     </main><!-- .site-main -->

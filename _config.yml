@@ -43,7 +43,6 @@ plugins_dir:
   - jekyll-tagsgenerator
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-author-page
 
 # Pagination
 paginate: 6
@@ -60,17 +59,17 @@ sass:
   sass_dir: _sass
   style: compressed
 
+# Collections
+collections:
+  authors:
+    title: Authors Page
+    output: true
+
+# Defaults
 defaults:
 - scope:
     path: ''
-    type: author
+    type: authors
   values:
     permalink: "/author/:title/"
     layout: author
-    author: james
-- scope:
-    path: ''
-    type: tag
-  values:
-    permalink: "/tag/:title/"
-    layout: tag
