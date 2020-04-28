@@ -13,14 +13,12 @@ post_class: post-template
             <header class="entry-header">
                 <h1 class="entry-title">{{ page.title }}</h1>
                 <div class="entry-meta">
-                    {% for author in site.data.authors %}
-                    {% if author[1].username == page.author %}
-                    <span class="post-author"><a href="{{ site.baseurl }}/author/{{ page.author }}/">{{ author[1].name }}</a></span>
+                    {% assign author = site.authors | where: 'title', page.author | first %}
+                    {% if author %}
+                    <span class="post-author"><a href="{{ site.baseurl }}/author/{{ page.author }}/">{{ author.name }}</a></span>
                     {% endif %}
-                    {% endfor %}
                     <span class="post-date">
-                        <time class="published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d,
-                            %Y" }}</time>
+                        <time class="published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d,%Y" }}</time>
                     </span>
                 </div><!-- .entry-meta -->
             </header><!-- .entry-header -->
@@ -31,9 +29,9 @@ post_class: post-template
                 {% if page.tags.size > 0 %}
                 <p class="post-tags">
                     {% for tag in page.tags %} {% if forloop.index == page.tags.size %}
-                    <a href='{{ site.baseurl }}tag/{{ tag | downcase | replace: ' ', '- ' }}/'>{{ tag | camelcase }}</a>
+                    <a href='{{ site.baseurl }}/tag/{{ tag | downcase | replace: ' ', '- ' }}/'>{{ tag | camelcase }}</a>
                     {% else %}
-                    <a href='{{ site.baseurl }}tag/{{ tag | downcase | replace: ' ', '- ' }}/'>{{ tag | camelcase }}</a>
+                    <a href='{{ site.baseurl }}/tag/{{ tag | downcase | replace: ' ', '- ' }}/'>{{ tag | camelcase }}</a>
                     {% endif %}
                     {% endfor %}
                 </p>
@@ -44,39 +42,39 @@ post_class: post-template
                     <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ site.production_url }}{{ page.url | remove_first: '/' }}"><i class="fa-facebook" aria-hidden="true"></i><span class="screen-reader-text">Facebook</span></a>
                 </div><!-- .share-post -->
             </footer>
-            {% for author in site.data.authors %}
-            {% if author[1].username == page.author %}
+            {% assign author = site.authors | where: 'title', page.author | first %}
+            {% if author %}
             <div class="author-box">
                 <div class="author-info">
-                    {% if author[1].picture %}
+                    {% if author.picture %}
                     <div class="avatar-container">
-                        <img class="author-profile-image" src="{{ site.baseurl }}{{ author[1].picture }}" alt="{{ page.author }}"
+                        <img class="author-profile-image" src="{{ site.baseurl }}{{ author.picture }}" alt="{{ page.author }}"
                             class="avatar" />
                     </div>
                     {% endif %}
                     <div class="author-details">
-                        <h2 class="author-title">About <a href="{{ site.baseurl }}/author/{{ page.author }}">{{ author[1].name }}</a></h2>
-                        {% if author[1].bio %}
-                        <p class="author-description">{{ author[1].bio }}</p>
+                        <h2 class="author-title">About <a href="{{ site.baseurl }}/author/{{ page.author }}">{{ author.name }}</a></h2>
+                        {% if author.bio %}
+                        <p class="author-description">{{ author.bio }}</p>
                         {% else %}
-                        <p class="author-description">Read <a href="{{ site.baseurl }}author/{{ page.author }}">more posts</a> by this
+                        <p class="author-description">Read <a href="{{ site.baseurl }}/author/{{ page.author }}">more posts</a> by this
                             author.</p>
                         {% endif %}
                         <div class="author-links">
-                            {% if author[1].url %}
-                            <a href="{{ author[1].url_full }}" target="_blank" rel="noopener">
+                            {% if author.url %}
+                            <a href="{{ author.url_full }}" target="_blank" rel="noopener">
                                 <i class="fa-globe" aria-hidden="true"></i>
                                 <span class="screen-reader-text">Website</span>
                             </a>
                             {% endif %}
-                            {% if author[1].facebook %}
-                            <a href="https://facebook.com/{{ author[1].facebook }}" target="_blank" rel="noopener">
+                            {% if author.facebook %}
+                            <a href="https://facebook.com/{{ author.facebook }}" target="_blank" rel="noopener">
                                 <i class="fa-facebook" aria-hidden="true"></i>
                                 <span class="screen-reader-text">Facebook</span>
                             </a>
                             {% endif %}
-                            {% if author[1].twitter %}
-                            <a href="https://twitter.com/{{ author[1].twitter }}" target="_blank" rel="noopener">
+                            {% if author.twitter %}
+                            <a href="https://twitter.com/{{ author.twitter }}" target="_blank" rel="noopener">
                                 <i class="fa-twitter" aria-hidden="true"></i>
                                 <span class="screen-reader-text">Twitter</span>
                             </a>
@@ -86,7 +84,6 @@ post_class: post-template
                 </div><!-- .author-info -->
             </div><!-- .author-box -->
             {% endif %}
-            {% endfor %}
         </article>
         {% if site.mailchimp_url %}
             {% include newsletter-box.html %}
