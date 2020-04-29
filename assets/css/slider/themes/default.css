@@ -37,18 +37,18 @@
 }
 .iis-previous-nav {
 	left: 5%;
-	background-position: 35% 50%;
+	background-position: 55% 50%;
 	background-image: url("arrow-left.svg");
 	background-color: #f7e88a;
-	background-size: contain;
-    border: 2px solid #333;
+    	background-size: 20px 15px;
+    	border: 2px solid #333;
 }
 .iis-next-nav {
 	right: 5%;
-	background-position: 65% 50%;
+	background-position: 55% 50%;
 	background-image: url("arrow-right.svg");
 	background-color: #f7e88a;
-	background-size: contain;
+	background-size: 20px 15px;
     border: 2px solid #333;
 }
 .ideal-image-slider:hover .iis-previous-nav,
