@@ -48,7 +48,7 @@ paginate: 6
 paginate_path: "/portfolio/page:num/"
 
 # Permalinks
-permalink: pretty
+permalink: /:title
 
 # Other
 markdown: kramdown
