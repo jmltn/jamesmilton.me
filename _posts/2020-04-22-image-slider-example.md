@@ -2,7 +2,8 @@
 layout: post
 title: Image Slider
 featured_image: /assets/images/posts/2018/1.jpg
-tags: [ Design ]
+tags:
+ - imageslider
 author: james
 featured: true
 image_sliders:

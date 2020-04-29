@@ -2,7 +2,9 @@
 layout: post
 title: RaspberryPi RC Car
 featured_image: /images/2016/12/raspberry-rev/plate.png
-tags: [ Design, Code ]
+tags:
+  - design
+  - code
 author: james
 ---
 

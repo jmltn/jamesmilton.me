@@ -2,7 +2,8 @@
 layout: post
 title: Arduino Air Quality Sensor
 featured_image: /images/2017/11/arduino_airquality/airqualitybreadboard.png
-tags: [ Code ]
+tags:
+  - code
 author: james
 ---
 
@@ -33,7 +34,7 @@ Air pollution sensors can help individuals control their environments through in
 6. **Breadboard**
   A simple terminal array board. Solderless breadboard does not require soldering, it is reusable.
 
-**Information**   
+**Information**
 * Data from the gas sensor is read from A4 analog pin.
 
 * Data from the dust sensor is read from A3 analog pin.
@@ -45,7 +46,7 @@ Air pollution sensors can help individuals control their environments through in
 
   * [DC-DC Boost Module](#dc-dc-boost-module) does this for us.
 
-**Schematics**      
+**Schematics**
 Drawings courtesy of Hamish Cunningham and Gareth Coleman.
 
 ![Arduino air quality breadboard]({{ site.baseurl }}/images/2017/11/arduino_airquality/airqualitybreadboard.png)

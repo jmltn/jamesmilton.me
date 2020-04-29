@@ -2,7 +2,9 @@
 layout: post
 title: Interactive Motion Graphic About Sleep
 featured_image: /images/2019/01/rem-nrem.png
-tags: [ MotionGraphics, Design ]
+tags:
+  - motiongraphics
+  - design
 author: james
 featured: true
 ---
@@ -28,11 +30,11 @@ In order to get more familiarised with Adobe After Effects, I made some differen
 <div class='embed-container'>
 	<iframe src="https://video.helloeko.com/v/AjQ5dz/embed?publisherID=h5b9hm" frameborder="0" allowfullscreen></iframe>
 </div>
-<small>Experimenting with some 3D interactive infographics that I made.</small>  
+<small>Experimenting with some 3D interactive infographics that I made.</small>
 
 <div class='embed-container'>
 	<iframe src="https://video.helloeko.com/v/M037KV/embed?publisherID=pt1T8W" frameborder="0" allowfullscreen></iframe>
-</div>	 
+</div>
 <small>Experimenting with some 2D interactive icons that I made.</small>
 
 

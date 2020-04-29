@@ -2,7 +2,8 @@
 layout: post
 title: American Road Trip Blog
 featured_image: /images/2016/12/jamesinamerica-com.png
-tags: [ Travel ]
+tags:
+  - travel
 author: james
 ---
 

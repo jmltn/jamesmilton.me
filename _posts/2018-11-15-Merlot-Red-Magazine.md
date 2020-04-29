@@ -2,7 +2,8 @@
 layout: post
 title: Merlot Red Magazine
 featured_image: /images/2018/11/magazine/render/realspread1-min.png
-tags: [ Illustration ]
+tags:
+  - illustration
 author: james
 ---
 

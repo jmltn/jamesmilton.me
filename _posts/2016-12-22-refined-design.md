@@ -2,7 +2,8 @@
 layout: post
 title: Refined Designs Website
 featured_image: /refineddesign/images/splash.jpeg
-tags: [ Design ]
+tags:
+  - design
 hidden: true
 author: james
 ---

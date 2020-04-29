@@ -40,7 +40,6 @@ navigation:
 # Required Plugins
 plugins_dir:
   - jekyll-paginate
-  - jekyll-tagsgenerator
   - jekyll-seo-tag
   - jekyll-sitemap
 
@@ -49,7 +48,7 @@ paginate: 6
 paginate_path: "/portfolio/page:num/"
 
 # Permalinks
-permalink: /:title
+permalink: pretty
 
 # Other
 markdown: kramdown
@@ -64,6 +63,9 @@ collections:
   authors:
     title: Authors Page
     output: true
+  blog_tags:
+    title: Tags Page
+    output: true
 
 # Defaults
 defaults:
@@ -73,3 +75,9 @@ defaults:
   values:
     permalink: "/author/:title/"
     layout: author
+- scope:
+    path: ''
+    type: blog_tags
+  values:
+    permalink: "/tag/:title/"
+    layout: tag

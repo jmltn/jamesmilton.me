@@ -2,7 +2,8 @@
 layout: post
 title: Café Du Gallery
 featured_image: /cafedugallery/images/menu_image.png
-tags: [ Design ]
+tags:
+  - design
 author: james
 hidden: true
 ---
