@@ -3,14 +3,14 @@
   bullets: false
   captions: true
   images:
-    - data-src: /assets/images/posts/2018/1.jpg
+    - src: /assets/images/posts/2018/1.jpg
       alt: Minimum required attributes
     - data-src: /assets/images/posts/2018/2.jpg
       alt: Use data-src for on-demand loading
     - data-src: /assets/images/posts/2018/3.jpg
       data-src-2x: /assets/images/posts/2018/3.jpg
       alt: Use data-src-2x for HiDPI devices
-    - data-src: /assets/images/posts/2018/4.jpg
+    - src: /assets/images/posts/2018/4.jpg
       alt: Links work too
   settings:
     height: 400
@@ -28,7 +28,7 @@
   bullets: true
   captions: true
   images:
-    - data-src: /assets/images/posts/2018/1.jpg
+    - src: /assets/images/posts/2018/1.jpg
       title: Balloons!
       alt: This slider has caption titles
     - data-src: /assets/images/posts/2018/2.jpg
@@ -36,7 +36,7 @@
       alt: Instead of the default slide effect
     - data-src: /assets/images/posts/2018/3.jpg
       data-src-2x: /assets/images/posts/2018/3.jpg
-    - data-src: /assets/images/posts/2018/4.jpg
+    - src: /assets/images/posts/2018/4.jpg
       title: Last image had no caption!
       alt: Also, this image has no link
   settings:
@@ -45,13 +45,13 @@
 
 - selector: example_slider2
   images:
-    - data-src: /assets/images/posts/2018/1.jpg
+    - src: /assets/images/posts/2018/1.jpg
       alt: image one
-    - data-src: /assets/images/posts/2018/2.jpg
+    - src: /assets/images/posts/2018/2.jpg
       alt: image two
-    - data-src: /assets/images/posts/2018/3.jpg
+    - src: /assets/images/posts/2018/3.jpg
       alt: image three
-    - data-src: /assets/images/posts/2018/4.jpg
+    - src: /assets/images/posts/2018/4.jpg
       alt: image four
   settings:
     height: "'auto'"
