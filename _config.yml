@@ -83,20 +83,3 @@ defaults:
     layout: tag
 
 # SEO
-title: 'James Milton's Portfolio'
-tagline: 'James Milton - Designer and Developer - Portfolio'
-url: 'https://jamesmilton.me'
-author: james
-
-twitter:
-  username: jmltn
-  card: summary
-
-social:
-  name: James Milton
-  links:
-    - https://twitter.com/jmltn
-    - https://www.facebook.com/jmltn.1
-    - https://www.linkedin.com/in/jmltn
-    - https://github.com/jmltn
-    - instagram.com/james.jpg/
