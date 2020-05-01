@@ -6,7 +6,7 @@ webhook_url:
 sections:
 - type: jekyll-pages
   label: Posts
-  create: documents
+  create: all
   match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
