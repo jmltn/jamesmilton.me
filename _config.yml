@@ -83,3 +83,21 @@ defaults:
     layout: tag
 
 # SEO
+title: 'James Milton''s Portfolio'
+tagline: 'James Milton is a Designer and Creator from the U.K, currently living in Salzburg, Austria.'
+url: jamesmilton.me
+author: james
+twitter:
+  username: jmltn
+  card: summary
+
+social:
+  name: James Milton
+  links:
+    - https://twitter.com/jmltn
+    - https://www.facebook.com/jmltn.1
+    - https://www.linkedin.com/in/jmltn
+    - https://github.com/jmltn
+    - https://instagram.com/james.
+
+github: [metadata]
