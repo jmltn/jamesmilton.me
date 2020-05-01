@@ -10,7 +10,7 @@ production_url: https://jamesmilton.me/
 disqus: 'james-milton'
 mailchimp_url:
 # Add your GA Tracking Id
-ga_analytics:
+ga_analytics: 'UA-47742897-8'
 
 # Contact form setings
 email: james.milton@me.com
