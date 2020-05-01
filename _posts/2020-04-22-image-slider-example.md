@@ -5,7 +5,7 @@ featured_image: /assets/images/posts/2018/1.jpg
 tags:
  - imageslider
 author: james
-featured: true
+hidden: true
 image_sliders:
   - example_slider
   - example_slider1
