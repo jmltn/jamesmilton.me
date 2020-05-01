@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About James
+title: James Milton - Designer and Developer
 featured_image: /assets/images/pages/about.jpg
 ---
 
-James Milton is a designer, developer and creator from the United Kingdom ????, currently residing in Salzburg, Austria ????.
+James Milton is a designer, developer and creator from the United Kingdom 🇬🇧, currently residing in Salzburg, Austria 🇦🇹.
 
 He is working as a Digital Product Specialist at [Red Bull Media House](https://www.redbullmediahouse.com/enk), after recently completing his scholarship funded Masters in Digital and Interactive Design at the [University of Leeds](http://www.leeds.ac.uk) Design School. Previous to that, he graduated from the [University of Sheffield](http://www.sheffield.ac.uk) with a First-class honours degree in Computer Science, fulfilled a yearlong Software Engineer internship with [Rolls-Royce](http://www.rolls-royce.com) and formed a working partnership with [Arup Design](http://www.arup.com).
 
