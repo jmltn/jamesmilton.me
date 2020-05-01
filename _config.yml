@@ -1,13 +1,12 @@
 # Site setings
 name: 'James Milton'
-description: 'Stay Stoked'
+description: 'James Milton is a Designer and Creator from the U.K, currently living in Salzburg, Austria.'
 # Sidebar about text
 site_description: 'Welcome to my website. It features topics such as design, video, travel & code. This blog is about finding balance in life, living with purpose, having fun, and doing what you love.'
 logo:
 favicon: '/assets/images/favicon.ico'
 baseurl:
 production_url: https://jamesmilton.me/
-url: "https://jamesmilton.me"
 disqus: 'james-milton'
 mailchimp_url:
 # Add your GA Tracking Id
@@ -82,3 +81,22 @@ defaults:
   values:
     permalink: "/tag/:title/"
     layout: tag
+
+# SEO
+title: 'James Milton's Portfolio'
+tagline: 'James Milton - Designer and Developer - Portfolio'
+url: 'https://jamesmilton.me'
+author: james
+
+twitter:
+  username: jmltn
+  card: summary
+
+social:
+  name: James Milton
+  links:
+    - https://twitter.com/jmltn
+    - https://www.facebook.com/jmltn.1
+    - https://www.linkedin.com/in/jmltn
+    - https://github.com/jmltn
+    - instagram.com/james.jpg/
