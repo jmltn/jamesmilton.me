@@ -16,7 +16,6 @@ Take a look at his [résumé](https://drive.google.com/file/d/1meFAdxZk85ijy1dmp
 
 *Stay stoked*
 
-
-
+--------
 # Featured Work
 Click here for my full [portfolio](https://jamesmilton.me/portfolio).
