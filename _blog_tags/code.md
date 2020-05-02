@@ -1,5 +1,5 @@
 ---
 title: Code
-tags: code
+tag: code
 permalink: "/tag/code/"
 ---
