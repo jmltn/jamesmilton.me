@@ -1,4 +1,48 @@
 # example slider
+- selector: colouring_book_slider
+  bullets: false
+  captions: true
+  images:
+    - src: /images/2019/04/colouringbook/Frontandbackcovers-min.png
+      data-src-2x: /images/2019/04/colouringbook/Frontandbackcovers-min.png
+      alt: Front and back cover
+    - src: /images/2019/04/colouringbook/Insidepages1-min.png
+      data-src-2x: /images/2019/04/colouringbook/Insidepages1-min.png
+      alt: First pages
+    - src: /images/2019/04/colouringbook/Insidepages2-min.png
+      data-src-2x: /images/2019/04/colouringbook/Insidepages2-min.png
+      alt: First picture together
+    - src: /images/2019/04/colouringbook/Insidepages3-min.png
+      data-src-2x: /images/2019/04/colouringbook/Insidepages3-min.png
+      alt: 100 timer attempts
+    - src: /images/2019/04/colouringbook/Insidepages4-min.png
+      data-src-2x: /images/2019/04/colouringbook/Insidepages4-min.png
+      alt: Should have bought that kimono
+    - src: /images/2019/04/colouringbook/Insidepages5-min.png
+      data-src-2x: /images/2019/04/colouringbook/Insidepages5-min.png
+      alt: ON AIR
+    - src: /images/2019/04/colouringbook/Insidepages6-min.png
+      data-src-2x: /images/2019/04/colouringbook/Insidepages6-min.png
+      alt: DESIGN
+    - src: /images/2019/04/colouringbook//Insidepages7-min.png
+      data-src-2x: /images/2019/04/colouringbook/Insidepages7-min.png
+      alt: Bike ride
+    - src: /images/2019/04/colouringbook/Insidepages8-min.png
+      data-src-2x: /images/2019/04/colouringbook/Insidepages8-min.png
+      alt: Umm
+  settings:
+    height: 600
+    initialHeight:
+    maxHeight:
+    interval:
+    transitionDuration:
+    effect: "'fade'"
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:
+
+
 - selector: example_slider
   bullets: false
   captions: true

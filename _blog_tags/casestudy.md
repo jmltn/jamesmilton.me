@@ -1,5 +1,5 @@
 ---
-title: CaseStudy
+title: Case Study
 tags: casestudy
 permalink: "/tag/casestudy/"
 ---
