@@ -5,7 +5,7 @@
   {% assign slider = site.data.sliders | where:"selector", include.selector | first %}
   <div id="{{ slider.selector }}">
   {% for image in slider.images %}
-    {% if image.href %}<a href="{{ image.href | prepend:site.baseurl | prepend:site.url }}">{% endif %}<img {% if image.data-src %} data-src="{{ image.data-src | prepend:site.baseurl | prepend:site.url }}" {% endif %} {% if image.data-src-2x %} data-src-2x="{{ image.data-src-2x | prepend:site.baseurl | prepend:site.url }}" {% endif %} {% if image.src %} src="{{ image.src  | prepend:site.baseurl | prepend:site.url }}" {% endif %} title="{{ image.title }}" alt="{{ image.alt }}">{% if image.href %}</a>{% endif %}
+    {% if image.href %}<a href="{{ image.href | prepend:site.baseurl }}">{% endif %}<img {% if image.data-src %} data-src="{{ image.data-src | prepend:site.baseurl }}" {% endif %} {% if image.data-src-2x %} data-src-2x="{{ image.data-src-2x | prepend:site.baseurl }}" {% endif %} {% if image.src %} src="{{ image.src  | prepend:site.baseurl }}" {% endif %} title="{{ image.title }}" alt="{{ image.alt }}">{% if image.href %}</a>{% endif %}
   {% endfor %}
   </div>
 {% endif %}
