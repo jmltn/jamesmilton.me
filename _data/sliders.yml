@@ -31,7 +31,7 @@
       data-src-2x: /images/2019/04/colouringbook/Insidepages8-min.png
       alt: Umm
   settings:
-    height: 600
+    height: "'auto'"
     initialHeight:
     maxHeight:
     interval:
