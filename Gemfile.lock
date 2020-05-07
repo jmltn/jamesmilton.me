@@ -245,6 +245,7 @@ DEPENDENCIES
   github-pages
   jekyll (= 3.8.5)
   jekyll-paginate
+  jekyll-redirect-from
   jekyll-seo-tag
   jekyll-sitemap
   tzinfo-data

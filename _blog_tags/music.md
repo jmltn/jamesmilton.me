@@ -1,5 +1,5 @@
 ---
 title: Music
-tag: music
-permalink: "/tag/music/"
+tag: 🎸
+permalink: "/tag/🎸/"
 ---

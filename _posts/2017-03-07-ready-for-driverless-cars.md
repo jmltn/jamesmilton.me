@@ -3,7 +3,7 @@ layout: post
 title: Are we ready for a virtual designated driver?
 featured_image: /images/2017/03/driverless-cars/Picture3-min.png
 tags:
- - casestudy
+ - 📝
 author: james
 ---
 
