@@ -42,6 +42,12 @@
 <section class="widget widget-social">
     <h2 class="widget-title">Follow me</h2>
     <p class="social-links-1">
+        {% if site.youtube %}
+        <a href="https://youtube.com/channel/{{ site.youtube }}" target="_blank">
+            <span class="fa-youtube-play fa" aria-hidden="true"></span>
+            <span class="screen-reader-text">YouTube</span>
+        </a>
+        {% endif %}
         {% if site.twitter %}
         <a href="https://twitter.com/{{ site.twitter }}" target="_blank">
             <span class="fa-twitter fa" aria-hidden="true"></span>
