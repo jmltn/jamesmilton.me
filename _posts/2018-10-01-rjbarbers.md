@@ -3,8 +3,8 @@ layout: post
 title: rjbarbers.co.uk
 featured_image: /images/2018/10/rjbarbers_logo.png
 tags:
-  - design
-  - code
+  - 🎨
+  - 💻
 hidden: true
 author: james
 ---

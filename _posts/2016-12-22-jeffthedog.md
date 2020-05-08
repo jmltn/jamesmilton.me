@@ -3,7 +3,7 @@ layout: post
 title: My Dog, Jeff
 featured_image: /jeff/jeff.jamesmilton.me.hyperesources/OBEY-JEFF.jpg
 tags:
-  - design
+  - 🎨
 author: james
 hidden: true
 ---

@@ -3,9 +3,8 @@ layout: post
 title: GetSafeOnline.org Motion Graphic
 featured_image: "/images/2019/05/GetSafeOnlineScreenshot.png"
 tags:
-  - motiongraphics
-  - video
-  - design
+  - 📼
+  - 🎨
 author: james
 ---
 GetSafeOnline aims to be the UK’s leading information resource for helping protect people, finances, devices and businesses from online fraud and abuse. Their website contains a variety of videos about staying safe online, from how to safely perform a computer backup, to gaming and dating online.

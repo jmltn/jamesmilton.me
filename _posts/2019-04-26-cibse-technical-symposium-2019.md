@@ -3,10 +3,8 @@ layout: post
 title: CIBSE Technical Symposium 2019 - Awards, Magazine Feature and More
 featured_image: "/images/2019/10/DAY2TALKS_99.jpg"
 tags:
-  - design
-  - virtualreality
-  - code
-  - conference
+  - 🎨
+  - 💻
 author: james
 featured: true
 ---

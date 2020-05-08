@@ -3,8 +3,8 @@ layout: post
 title: Interactive Motion Graphic About Sleep
 featured_image: /images/2019/01/rem-nrem.png
 tags:
-  - motiongraphics
-  - design
+  - 📼
+  - 🎨
 author: james
 featured: true
 ---

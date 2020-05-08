@@ -1,5 +1,5 @@
 ---
 title: Design
-tag: design
-permalink: "/tag/design/"
+tag: 🎨
+permalink: "/tag/🎨/"
 ---

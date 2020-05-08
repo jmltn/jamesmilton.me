@@ -1,5 +1,5 @@
 ---
 title: Video
-tag: video
-permalink: "/tag/video/"
+tag: 📼
+permalink: "/tag/📼/"
 ---

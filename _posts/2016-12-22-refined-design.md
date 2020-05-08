@@ -3,7 +3,7 @@ layout: post
 title: Refined Designs Website
 featured_image: /refineddesign/images/splash.jpeg
 tags:
-  - design
+  - 🎨
 hidden: true
 author: james
 ---

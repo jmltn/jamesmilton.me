@@ -3,8 +3,8 @@ layout: post
 title: Java OpenGL Virtual Art Exhibition
 featured_image: /images/2017/11/openGL_java.png
 tags:
-  - video
-  - code
+  - 📼
+  - 💻
 author: james
 ---
 

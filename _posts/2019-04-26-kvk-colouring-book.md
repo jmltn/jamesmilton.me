@@ -3,7 +3,7 @@ layout: post
 title: Colouring Book for KvK
 featured_image: /images/2019/04/colouringbook/Frontandbackcovers-min.png
 tags:
- - illustration
+ - 🎨
 author: james
 image_sliders:
   - colouring_book_slider

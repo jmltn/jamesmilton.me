@@ -3,8 +3,8 @@ layout: post
 title: Sky Home Mesh - UX Design - App Concept
 featured_image: /images/2018/12/skymeshthumbnail.png
 tags:
-  - uxdesign
-  - video
+  - 🎨
+  - 📼
 author: james
 ---
 

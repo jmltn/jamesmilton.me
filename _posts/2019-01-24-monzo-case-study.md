@@ -3,7 +3,7 @@ layout: post
 title: How UX Design is utilised in mobile banking apps, to make them intuitive and beneficial for users
 featured_image: /images/2019/01/monzocasestudy/9halifaxnew.png
 tags:
- - uxdesign
+ - 🎨
  - 📝
 author: james
 ---

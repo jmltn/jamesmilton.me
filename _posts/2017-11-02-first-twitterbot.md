@@ -3,7 +3,7 @@ layout: post
 title: My First Twitterbot
 featured_image: /images/2017/11/mrinquisitor.png
 tags:
-  - miscellaneous
+  - 🤷
 author: james
 ---
 

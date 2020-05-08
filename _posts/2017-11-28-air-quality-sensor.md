@@ -3,7 +3,7 @@ layout: post
 title: Arduino Air Quality Sensor
 featured_image: /images/2017/11/arduino_airquality/airqualitybreadboard.png
 tags:
-  - code
+  - 💻
 author: james
 ---
 

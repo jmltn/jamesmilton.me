@@ -1,5 +1,5 @@
 ---
 title: Travel
-tag: travel
-permalink: "/tag/travel/"
+tag: 🗺
+permalink: "/tag/🗺/"
 ---

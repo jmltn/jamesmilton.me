@@ -3,7 +3,6 @@ layout: post
 title: Image Slider
 featured_image: /assets/images/posts/2018/1.jpg
 tags:
- - imageslider
 author: james
 hidden: true
 image_sliders:

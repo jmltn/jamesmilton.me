@@ -1,5 +1,5 @@
 ---
 title: lol
-tag: lol
-permalink: "/tag/lol/"
+tag: 🤷
+permalink: "/tag/🤷/"
 ---
