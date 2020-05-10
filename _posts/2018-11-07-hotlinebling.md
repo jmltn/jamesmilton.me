@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 1-800-HOTLINEBLING
-featured_image: /images/2018/11/jamesBannerWhite2000-min.jpg
+image: /images/2018/11/jamesBannerWhite2000-min.jpg
 tags:
   - 🤷
   - 🎨

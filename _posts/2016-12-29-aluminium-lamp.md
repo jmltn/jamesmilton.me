@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Modernest Style Lamp
-featured_image: /images/2016/12/product-design-as/lamp.jpg
+image: /images/2016/12/product-design-as/lamp.jpg
 tags:
   - 🎨
 author: james

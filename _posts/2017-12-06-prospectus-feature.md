@@ -1,7 +1,7 @@
 ---
 layout: post
 title: University Prospectus Feature
-featured_image: /images/2017/12/prospectus2.jpg
+image: /images/2017/12/prospectus2.jpg
 tags:
   - 🤷
 author: james

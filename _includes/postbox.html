@@ -1,8 +1,8 @@
 <article class="post">
     <div class="post-inside">
-        {% if post.featured_image %}
+        {% if post.image %}
             <a class="post-thumbnail" href="{{ post.url }}">
-                <img src="{% if post.featured_image contains ' :// ' %}{{ post.featured_image }}{% else %}{{ site.baseurl }}{{ post.featured_image }}{% endif %}"
+                <img src="{% if post.image contains ' :// ' %}{{ post.image }}{% else %}{{ site.baseurl }}{{ post.image }}{% endif %}"
                     alt="{{ post.title }}">
             </a>
         {% endif %}

@@ -1,7 +1,7 @@
 ---
 layout: homepage
 title: James Milton - Designer and Creator
-featured_image: /assets/images/pages/about.jpg
+image: /assets/images/pages/about.jpg
 ---
 
 James Milton is a [designer and creator]({{ site.baseurl }}/portfolio/) from the United Kingdom 🇬🇧, currently residing in Salzburg, Austria 🇦🇹.

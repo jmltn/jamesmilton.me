@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Merlot Red Magazine
-featured_image: /images/2018/11/magazine/render/realspread1-min.png
+image: /images/2018/11/magazine/render/realspread1-min.png
 tags:
   - 🎨
 author: james

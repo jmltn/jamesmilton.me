@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hitchhike - Sheffield, UK 🇬🇧 to Riga, Latvia 🇱🇻
-featured_image: /images/2017/05/bummit-front.JPG
+image: /images/2017/05/bummit-front.JPG
 tags:
   - 📼
   - 🗺

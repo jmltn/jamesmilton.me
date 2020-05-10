@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Solitaire Auto-Solve made with Haskell
-featured_image: /images/2017/03/haskell/findmoves1.png
+image: /images/2017/03/haskell/findmoves1.png
 tags:
   - 💻
 author: james

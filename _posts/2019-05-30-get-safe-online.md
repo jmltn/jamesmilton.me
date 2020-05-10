@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GetSafeOnline.org Motion Graphic
-featured_image: "/images/2019/05/GetSafeOnlineScreenshot.png"
+image: "/images/2019/05/GetSafeOnlineScreenshot.png"
 tags:
   - 📼
   - 🎨

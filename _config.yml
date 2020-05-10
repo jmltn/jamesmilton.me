@@ -25,9 +25,7 @@ social:
     - https://www.facebook.com/jmltn.1
     - https://www.linkedin.com/in/jmltn
     - https://github.com/jmltn
-    - https://instagram.com/james.
-
-github: [metadata]
+    - https://instagram.com/james.jpg
 
 # Contact form setings
 email: james.milton@me.com
@@ -36,7 +34,7 @@ thankyou_page_description: "Your message has been successfully sent. I will cont
 
 # Social links
 youtube: 'UC4G3WR8U8Uk0OY62jD1Ut_w'
-twitter:
+twitter: jmltn
 facebook:
 github:
 codepen:
@@ -45,6 +43,10 @@ medium:
 instagram: 'james.jpg'
 pinterest:
 linkedin: 'jmltn'
+
+twitter:
+  username: jmltn
+  card: summary
 
 # Navigation
 navigation:
@@ -101,3 +103,6 @@ defaults:
   values:
     permalink: "/tag/:title/"
     layout: tag
+
+
+github: [metadata]

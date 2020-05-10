@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Image Slider
-featured_image: /assets/images/posts/2018/1.jpg
+image: /assets/images/posts/2018/1.jpg
 tags:
 author: james
 hidden: true

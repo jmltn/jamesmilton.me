@@ -1,7 +1,7 @@
 ---
 layout: post
 title: rjbarbers.co.uk
-featured_image: /images/2018/10/rjbarbers_logo.png
+image: /images/2018/10/rjbarbers_logo.png
 tags:
   - 🎨
   - 💻

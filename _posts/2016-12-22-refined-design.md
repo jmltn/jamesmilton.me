@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Refined Designs Website
-featured_image: /refineddesign/images/splash.jpeg
+image: /refineddesign/images/splash.jpeg
 tags:
   - 🎨
 hidden: true

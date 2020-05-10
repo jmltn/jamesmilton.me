@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Computer Science Dissertation 🖥 - Smart Building Data Visualisation with VR
-featured_image: /images/2017/08/thediamond.jpg
+image: /images/2017/08/thediamond.jpg
 tags:
   - 💻
 author: james

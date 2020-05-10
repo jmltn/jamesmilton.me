@@ -1,7 +1,7 @@
 ---
 layout: post
 title: London Olympics Activity Game
-featured_image: /images/2016/12/gcse-graphics/gcsefront.jpg
+image: /images/2016/12/gcse-graphics/gcsefront.jpg
 tags:
   - 🎨
 author: james
