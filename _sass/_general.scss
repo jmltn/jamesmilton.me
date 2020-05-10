@@ -714,7 +714,7 @@ blockquote.alignright {
     font-size: 1rem;
     margin-bottom: 0.625em;
     span {
-        color: $gray;
+        color: $gray-light;
         font: 14px/1.5 $font-secondary;
     }
 }
@@ -730,14 +730,32 @@ blockquote.alignright {
 .contact-form {
     box-sizing: border-box;
     margin-bottom: 3.33333em;
+    color: $gray-light;
 }
 
 .contact-form input[type=email], .contact-form input[type=text], .contact-form input[type=url] {
     width: 100%;
+    background-color: $gray;
+    color: $gray-light;
 }
 
 .contact-form textarea {
     height: 200px;
     width: 100%;
     float: none;
+    background-color: $gray;
+    color: $gray-light;
+}
+
+.contact-form ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: $gray-light;
+  opacity: 1; /* Firefox */
+}
+
+.contact-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: $gray-light;
+}
+
+.contact-form ::-ms-input-placeholder { /* Microsoft Edge */
+  color: $gray-light;
 }

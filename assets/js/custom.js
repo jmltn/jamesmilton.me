@@ -115,10 +115,10 @@
 	var prefix = '';
 	var skills = [
 	    'Designer',
-	    'Developer',
+	    'Creator',
 			'Snowboarder',
-			'Creator',
-			'Some other lame noun'
+			'Guitarist',
+			'*Insert lame noun*'
 	].map(function (s) { return s; });
 	var delay = 10;
 	var step = 1;

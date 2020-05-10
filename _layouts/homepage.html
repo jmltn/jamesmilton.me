@@ -9,11 +9,15 @@ layout: default
             <div class="post-thumbnail"><img src="{{ site.baseurl }}{{ page.featured_image }}" alt="{% if page.featured_image_alt %}{{ page.featured_image_alt }}{% else %}{{ page.title }}{% endif %}" /></div>
             {% endif %}
             <header class="entry-header">
-                <h1 class="entry-title">{{ page.title }}</h1>
+                <h1 class="entry-title">What makes me, me?</h1>
             </header><!-- .entry-header -->
             <div class="entry-content">
                 {{content}}
             </div>
         </article><!-- .post .page -->
     </main><!-- .site-main -->
+    <div class="entry-header">
+        <h1 class="entry-title">Some of my work</h1>
+    </div>
+    {% include featuredbox.html %}
 </div><!-- .site-content -->
