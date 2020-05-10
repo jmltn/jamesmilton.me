@@ -12,6 +12,23 @@ mailchimp_url:
 # Add your GA Tracking Id
 ga_analytics: 'UA-47742897-8'
 
+# SEO
+title: 'James Milton''s Portfolio'
+tagline: 'James Milton is a Designer and Creator from the U.K, currently living in Salzburg, Austria.'
+url: 'jamesmilton.me'
+author: james
+
+social:
+  name: James Milton
+  links:
+    - https://twitter.com/jmltn
+    - https://www.facebook.com/jmltn.1
+    - https://www.linkedin.com/in/jmltn
+    - https://github.com/jmltn
+    - https://instagram.com/james.
+
+github: [metadata]
+
 # Contact form setings
 email: james.milton@me.com
 contact_page_description: "Shoot me a message!"
@@ -84,20 +101,3 @@ defaults:
   values:
     permalink: "/tag/:title/"
     layout: tag
-
-# SEO
-title: 'James Milton''s Portfolio'
-tagline: 'James Milton is a Designer and Creator from the U.K, currently living in Salzburg, Austria.'
-url: jamesmilton.me
-author: james
-
-social:
-  name: James Milton
-  links:
-    - https://twitter.com/jmltn
-    - https://www.facebook.com/jmltn.1
-    - https://www.linkedin.com/in/jmltn
-    - https://github.com/jmltn
-    - https://instagram.com/james.
-
-github: [metadata]
