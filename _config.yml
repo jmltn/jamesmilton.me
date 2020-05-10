@@ -6,7 +6,7 @@ site_description: 'Welcome to my website. It features topics such as design, vid
 logo: '/assets/images/pages/about.jpg'
 favicon: '/assets/images/favicon.ico'
 baseurl:
-production_url: https://jamesmilton.me/
+production_url: 'https://jamesmilton.me/'
 disqus: 'james-milton'
 mailchimp_url:
 # Add your GA Tracking Id
@@ -15,7 +15,7 @@ ga_analytics: 'UA-47742897-8'
 # SEO
 title: 'James Milton''s Portfolio'
 tagline: 'James Milton is a Designer and Creator from the U.K, currently living in Salzburg, Austria.'
-url: jamesmilton.me
+url: 'https://jamesmilton.me/'
 author: james
 
 social:
