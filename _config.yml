@@ -45,7 +45,12 @@ linkedin: 'jmltn'
 
 twitter:
   username: jmltn
+  creator: jmltn
   card: summary
+
+facebook:
+  app_id: 267125577759369
+  admins: jmltn.1
 
 # Navigation
 navigation:
