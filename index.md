@@ -4,9 +4,9 @@ title: James Milton - Designer and Creator
 image: /assets/images/pages/about.jpg
 ---
 
-James Milton is a [designer and creator]({{ site.baseurl }}/portfolio/) from the United Kingdom 🇬🇧, currently residing in Salzburg, Austria 🇦🇹.
+James Milton is a [designer and creator]({{ site.baseurl }}/portfolio/) from the U.K 🇬🇧, currently residing in Salzburg, Austria 🇦🇹.
 
-He is working as a Digital Product Specialist at [Red Bull Media House](https://www.redbullmediahouse.com/enk), after recently completing his scholarship funded Masters in Digital and Interactive Design at the [University of Leeds](http://www.leeds.ac.uk) Design School. Previous to that, he graduated from the [University of Sheffield](http://www.sheffield.ac.uk) with a First-class honours degree in Computer Science, fulfilled a yearlong Software Engineer internship with [Rolls-Royce](http://www.rolls-royce.com) and formed a working partnership with [Arup Design](http://www.arup.com).
+He is working as a Digital Product Specialist at [Red Bull Media House](https://www.redbullmediahouse.com/enk), after recently completing his scholarship funded Masters in Digital and Interactive Design at the [University of Leeds](http://www.leeds.ac.uk) Design School. Prior to that, he graduated from the [University of Sheffield](http://www.sheffield.ac.uk) with a First-class honours degree in Computer Science, fulfilled a yearlong Software Engineer internship with [Rolls-Royce](http://www.rolls-royce.com) and formed a working partnership with [Arup Design](http://www.arup.com).
 
 In addition to exploring design and code, James is a keen [videoographer](https://www.youtube.com/channel/UC4G3WR8U8Uk0OY62jD1Ut_w) and [guitarist]({{ site.baseurl }}/tag/🎸). More of his work can be found on his [portfolio]({{ site.baseurl }}/portfolio).
 
