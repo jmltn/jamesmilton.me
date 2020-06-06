@@ -116,6 +116,7 @@
 	var skills = [
 	    'Designer',
 	    'Creator',
+			'Video maker',
 			'Snowboarder',
 			'Guitarist',
 			'*Insert lame noun*'

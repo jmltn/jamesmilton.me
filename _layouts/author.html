@@ -11,11 +11,11 @@ class: 'author-template'
     <main id="main" class="site-main inner">
         {% if author %}
         <header class="page-header">
-            <h1 class="page-title">
+            <h2 class="page-title">
                 {% if post_size == 0 %}No posts{% elsif post_size == 1 %}1 post{%
                 else %}{{ post_size }} posts{% endif %} by
                 <span class="vcard highlight">{{ author.name }}</span>
-            </h1>
+            </h2>
             <div class="author-box">
                 <div class="author-info">
                     {% if author.picture %}

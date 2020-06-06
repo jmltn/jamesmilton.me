@@ -18,7 +18,7 @@ body {
 }
 
 a {
-    border-bottom: 1px solid $color-accent;
+    border-bottom: 1px solid $lightblue;
     color: $gray-light;
     text-decoration: none;
     -webkit-transition: border .3s, color .3s;
@@ -26,7 +26,7 @@ a {
     transition: border .3s, color .3s;
 
     &:hover {
-        border-color: $gray;
+        border-color: $color-accent;
     }
 }
 

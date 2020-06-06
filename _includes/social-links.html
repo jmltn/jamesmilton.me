@@ -1,16 +1,15 @@
 <p class="social-links">
-    {% if site.youtube %}
-    <a href="https://youtube.com/channel/{{ site.youtube }}" target="_blank">
-        <span class="fa-youtube-play fa" aria-hidden="true"></span>
-        <span class="screen-reader-text">YouTube</span>
+    <a class="contact-me" href="{{ site.baseurl }}/contact/" target="_blank">
+        Contact me
+        <span class="fa-envelope fa" aria-hidden="true"></span>
+        <span class="screen-reader-text">Contact</span>
     </a>
-    {% endif %}
-    {% if site.github %}
+    <!-- {% if site.github %}
     <a href="https://github.com/{{ site.github }}" target="_blank">
         <span class="fa-github fa" aria-hidden="true"></span>
         <span class="screen-reader-text">GitHub</span>
     </a>
-    {% endif %}
+    {% endif %} -->
     {% if site.codepen %}
     <a href="https://codepen.io/{{ site.codepen }}" target="_blank">
         <span class="fa-codepen fa" aria-hidden="true"></span>
@@ -33,6 +32,12 @@
     <a href="https://www.instagram.com/{{ site.instagram }}" target="_blank">
         <span class="fa-instagram fa" aria-hidden="true"></span>
         <span class="screen-reader-text">Instagram</span>
+    </a>
+    {% endif %}
+    {% if site.youtube %}
+    <a href="https://youtube.com/channel/{{ site.youtube }}" target="_blank">
+        <span class="fa-youtube-play fa" aria-hidden="true"></span>
+        <span class="screen-reader-text">YouTube</span>
     </a>
     {% endif %}
     {% if site.pinterest %}

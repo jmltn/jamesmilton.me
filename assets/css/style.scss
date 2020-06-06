@@ -684,12 +684,28 @@ a.post-thumbnail:hover img {
 
         &:hover {
             border-color: $color-accent;
-            color: $black;
+            color: $gray;
         }
 
     }
 }
+.contact-me{
+    font: 11px/1.5 $font-secondary;
+    letter-spacing: 0.1em;
+    margin-top: 0.5em;
+    text-transform: uppercase;
 
+    a {
+        border-color: transparent;
+        color: $gray;
+
+        &:hover {
+            border-color: $color-accent;
+            color: $gray;
+        }
+
+    }
+}
 .top-link {
     border: 0;
     bottom: 15px;
