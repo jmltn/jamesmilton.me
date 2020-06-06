@@ -56,10 +56,19 @@
     display: block;
     margin: auto;
 }
+.video-thumbnail {
+    width: 100%;
+    overflow:hidden;
+    display:block;
+    height: 97%;
+    margin-bottom: 3.75em;
+}
 
-.post-thumbnail video{
+.video-thumbnail video{
     display: block;
     margin: auto;
+    margin-top: -3%;
+
 }
 
 a.post-thumbnail {
