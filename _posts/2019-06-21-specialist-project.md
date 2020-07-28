@@ -32,12 +32,12 @@ In order to get more familiarised with Adobe After Effects, I made some differen
 <small>This is the result of combing some music to a vector image I have of my dog, Jeff 😅</small>
 
 <div class='embed-container'>
-	<iframe src="https://video.helloeko.com/v/AjQ5dz/embed?publisherID=h5b9hm" frameborder="0" allowfullscreen></iframe>
+	<iframe src="https://video.helloeko.com/v/AjQ5dz/embed?autoplay=false&publisherID=h5b9hm" frameborder="0" allowfullscreen></iframe>
 </div>
 <small>Experimenting with some 3D interactive infographics that I made.</small>
 
 <div class='embed-container'>
-	<iframe src="https://video.helloeko.com/v/M037KV/embed?publisherID=pt1T8W" frameborder="0" allowfullscreen></iframe>
+	<iframe src="https://video.helloeko.com/v/M037KV/embed?autoplay=false&publisherID=pt1T8W" frameborder="0" allowfullscreen></iframe>
 </div>
 <small>Experimenting with some 2D interactive icons that I made.</small>
 
