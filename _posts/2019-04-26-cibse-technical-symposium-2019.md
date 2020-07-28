@@ -18,6 +18,7 @@ Between the 25th and 26th April 2019, The CIBSE Technical Symposium 2019 was hos
 
 While studying Computer Science at the University of Sheffield, I investigated a solution to improving understanding of smart building data as part of my final year dissertation project, which was supervised by Dr Ramsay Taylor. By marrying a computer games engine with a BIM model, I was able to create a 3D visualisation of the environmental performance of Sheffield University’s complex Diamond building.
 
+<iframe src='https://www.youtube.com/embed/xQKAFD06nfw?autoplay=1&loop=1' frameborder='0' allowfullscreen></ifr
 
 My dissertation paper was submitted to The CIBSE Technical Symposium 2019 and I was invited to present at the symposium. My presentation and paper explaining how it was done was named the ‘Most Significant Contribution to the Art and Science of Building Services’ at the 2019 CIBSE Technical Symposium. Additionally, a magazine spread was written about my project in the CIBSE journal.
 
