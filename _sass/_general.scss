@@ -768,9 +768,17 @@ blockquote.alignright {
 }
 
 /* Timeline */
+.fade {
+  background: linear-gradient(to bottom, rgba($black,0) 0%,rgba($black,1) 75%);
+  height: 100px;
+  margin-top: -150px;
+  position: relative;
+  width: 140%;
+  overflow: hidden;
+}
 .timeline ul {
   padding-top: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .timeline ul li {
@@ -798,12 +806,28 @@ blockquote.alignright {
   width: 400px;
   border: 2px solid $lightblue;
   color: $black;
-  font-weight: bold;
   line-height: 1.33333;
   // margin: 1.25em 15px 1.875em 0;
   padding: 1.2em 25px 1.2em 30px;
   position: relative;
   text-align: center;
+}
+.timeline ul li div h3 {
+  color: $darkblue;
+  margin-top: 10px;
+}
+.timeline ul li div a {
+  color: $darkblue;
+}
+.timeline ul li div a {
+  color: $black;
+  &:hover {
+      border-color: $gray-light;
+  }
+}
+
+.timeline ul li div time {
+  display: block;
 }
 
 .timeline ul li div::before {
@@ -821,16 +845,12 @@ blockquote.alignright {
 
 .timeline ul li:nth-child(odd) div {
   left: 45px;
-}
-
-.timeline ul li:nth-child(odd) div::before {
-  left: -15px;
-  border-width: 8px 16px 8px 0;
-  border-color: transparent $color-accent transparent transparent;
+  text-align: left;
 }
 
 .timeline ul li:nth-child(even) div {
   left: -439px;
+  text-align: right;
 }
 
 .timeline ul li:nth-child(even) div::before {
@@ -840,10 +860,10 @@ blockquote.alignright {
 }
 
 time {
-  display: block;
   font-style: normal;
   font: 14px / 1.5 $font-secondary;
   margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 
@@ -882,32 +902,41 @@ time {
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   .timeline ul li div {
-    width: 250px;
-  }
-  .timeline ul li:nth-child(even) div {
-    left: -289px;
-    /*250+45-6*/
+    width: calc(100vw - 140px);
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
+  .timeline ul li div h3 {
+    margin-top: 0px;
+  }
+  .timeline ul li.in-view::after {
+    background: $lightblue;
+  }
   .timeline ul li {
     margin: 0 auto;
     margin-left: 0px;
   }
   .timeline ul li div {
-    width: calc(100vw - 91px);
-    border: 5px solid transparent;
-    height: 90%;
+    width: calc(100vw - 120px);
+    border: 5px solid black;
+    background-color: $color-accent;
+    margin-left: 0px;
+  }
+  .timeline ul li div::before {
+    background-color: transparent;
+    border: 0px;
   }
   .timeline ul li:nth-child(even) div {
-    left: 45px;
+    left: 20px;
+    text-align: left;
   }
-  .timeline ul li:nth-child(even) div::before {
-    left: -15px;
-    border-width: 8px 16px 8px 0;
-    border-color: transparent $color-accent transparent transparent;
+  .timeline ul li:nth-child(odd) div {
+    left: 20px;
+  }
+  time {
+    margin-top: 0px;
   }
 }

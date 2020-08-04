@@ -69,7 +69,7 @@ plugins:
 
 
 # Pagination
-paginate: 6
+paginate: 10
 paginate_path: "/portfolio/page:num/"
 
 # Permalinks

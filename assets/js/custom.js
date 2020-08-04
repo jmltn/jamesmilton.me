@@ -5,6 +5,30 @@
 
 	$(document).ready(function() {
 
+
+		// Timeline show More
+		var list = $(".listTimeline li");
+	  var numToShow = 3;
+	  var button = $("#next");
+		var fade = $(".fade");
+		var numInList = list.length;
+	  list.hide();
+	  if (numInList > numToShow) {
+	    button.show();
+	  }
+	  list.slice(0, numToShow).show();
+
+	  button.click(function () {
+	    var showing = list.filter(":visible").length;
+	    list.slice(showing - 1, showing + numToShow).fadeIn();
+	    var nowShowing = list.filter(":visible").length;
+	    if (nowShowing >= numInList) {
+	      button.hide();
+				fade.hide();
+	    }
+	  });
+
+
 		// Hidden sections
 		$('#show-sidebar, #hide-sidebar').on('click', function (e) {
 			$body.toggleClass('sidebar--opened');
