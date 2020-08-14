@@ -23,7 +23,14 @@ body {
     line-height: 1.75;
     overflow-x: hidden;
 }
-
+canvas {
+    position:absolute;
+    left:0;
+    top:0;
+    bottom:0;
+    background-color: #111;
+	  z-index:-100;
+}
 a {
     border-bottom: 1px solid $lightblue;
     color: $gray-light;
