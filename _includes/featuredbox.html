@@ -7,11 +7,11 @@
             <div>
                 <div class="slide-inner">
                     {% if post.image %}
-                        <div class="slide-bg" style="background-image: url({{ site.baseurl }}{{ post.image }})"></div>
+                        <a href="{{ site.baseurl }}{{ post.url }}" rel="bookmark"><div class="slide-bg" style="background-image: url({{ site.baseurl }}{{ post.image }})"></div></a>
                     {% endif %}
                     <div class="slide-overlay">
                         <h2 class="entry-title">
-                            <a href="{{ site.baseurl }}{{ post.url }}" rel="bookmark">{{ post.title }}</a>
+                            <a href="{{ site.baseurl }}{{ post.url }}" rel="bookmark"><u>{{ post.title }}</u></a>
                         </h2>
                         <div class="entry-meta">
                             {% assign author = site.authors | where: 'title', post.author | first %}
