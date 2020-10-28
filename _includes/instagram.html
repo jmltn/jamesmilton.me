@@ -28,7 +28,6 @@
 </section>
 
 <script>
-  console.log(Instafeed)
   var feed = new Instafeed({
     accessToken: '{{ include.accessToken }}',
     limit: 11,
@@ -38,5 +37,3 @@
 
   feed.run();
 </script>
-
-
