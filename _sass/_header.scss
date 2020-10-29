@@ -81,16 +81,17 @@
 
 .toggle-sidebar,
 .toggle-search {
-    font-size: 30px;
-    height: 60px;
+    font-size: 15px;
+    height: 50px;
     padding: 0;
-    width: 60px;
+    width: 50px;
+    font-family: Inconsolata;
 }
 
 #show-sidebar,
 #show-search {
     background-color: $lightblue;
-    color: $black;
+    color: $gray-dark;
     position: fixed;
     right: 0;
     z-index: 997;
