@@ -66,8 +66,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
-  - jekyll-loading-lazy
-
 
 # Pagination
 paginate: 10

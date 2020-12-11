@@ -12,5 +12,4 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'github-pages'
   gem 'jekyll-redirect-from'
-  gem 'jekyll-loading-lazy'
 end
