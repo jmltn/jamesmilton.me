@@ -9,8 +9,6 @@ baseurl:
 production_url: 'https://jamesmilton.me'
 disqus: 'james-milton'
 mailchimp_url:
-# Add your GA Tracking Id
-ga_analytics: 'UA-47742897-8'
 
 # SEO
 title: 'James Milton''s Portfolio'
