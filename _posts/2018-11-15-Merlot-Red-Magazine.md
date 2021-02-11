@@ -5,7 +5,6 @@ image: /images/2018/11/magazine/render/realspread1-min.png
 tags:
   - 🎨
 author: james
-featured: true
 ---
 
 This project was about creating a magazine theme using one colour and representing its meaning through the overall design.
