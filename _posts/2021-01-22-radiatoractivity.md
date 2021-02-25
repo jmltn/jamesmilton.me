@@ -7,7 +7,6 @@ tags:
  - 💻
  - 📼  
 author: james
-featured: true
 ---
 
 My girlfriend and I have started a little side project called [Radiator Activity](https://radiatoractivity.com/).
