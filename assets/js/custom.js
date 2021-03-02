@@ -138,13 +138,14 @@
 
 	var prefix = '';
 	var skills = [
-	    'Digital Designer',
-	    '2D/3D Creator',
+	    'Digital designer',
+	    '2D/3D creator',
+			'Motion designer',
 			'VR/AR specialist',
 			'Video maker',
-			'Snowboarder',
-			'Guitarist',
-			'Motion designer'
+			'Snowboard sender',
+			'Guitarist'
+
 	].map(function (s) { return s; });
 	var delay = 10;
 	var step = 1;

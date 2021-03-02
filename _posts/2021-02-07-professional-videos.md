@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Professional Video Show-Reel
+title: Professional Video Collection
 image: /images/2021/fretello.gif
 tags:
   - 📼
