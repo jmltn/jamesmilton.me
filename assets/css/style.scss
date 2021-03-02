@@ -56,16 +56,21 @@
     display: block;
     margin: auto;
 }
+
+.redbullLogo{
+  height: 16px !important;
+}
 .video-thumbnail {
+    // background-color: $color-accent;
     width: 100%;
     display:block;
-    border: 2px solid $lightblue;
+    // border: 2px solid $lightblue;
     color: $black;
     line-height: 1.33333;
-    // margin: 1.25em 15px 1.875em 0;
-    padding: 1em 20px 1em 20px !important;
+    // // margin: 1.25em 15px 1.875em 0;
+    // padding: 1em 20px 1em 20px !important;
     position: relative;
-    text-align: center;
+    // text-align: center;
 }
 
 .timeline ul li .video-thumbnail::before {

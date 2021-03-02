@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java OpenGL Virtual Art Exhibition
-image: /images/2017/11/openGL_java.png
+image: /images/2021/robothand.gif
 tags:
   - 📼
   - 💻
