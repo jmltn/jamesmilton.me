@@ -5,23 +5,9 @@ layout: default
 <div id="content" class="site-content">
     <main id="main" class="site-main inner">
         <article class="post page">
-            <div class="video-thumbnail">
-                <video autoplay loop muted playsinline poster="/assets/video/colour-animation.jpg" title="james-milton-color-animation">
-                  <source src="/assets/video/colour-animation.m4v" type="video/mp4" />
-                  <source src="/assets/video/colour-animation.webm" type="video/webm" />
-                  <source src="/assets/video/colour-animation.ogv" type="video/ogg" />
-                  <source src="/assets/video/colour-animation.mp4" />
-                  <object type="application/x-shockwave-flash" data="/assets/video/flashfox.swf" width="720" height="720" style="position:relative;">
-                  <param name="movie" value="/assets/video/flashfox.swf" />
-                  <param name="allowFullScreen" value="true" />
-                  <param name="flashVars" value="autoplay=true&amp;controls=false&amp;fullScreenEnabled=false&amp;posterOnEnd=true&amp;loop=true&amp;poster=/assets/video/colour-animation.jpg&amp;src=colour-animation.m4v" />
-                   <embed src="/assets/video/flashfox.swf" width="720" height="720" style="position:relative;"  flashVars="autoplay=true&amp;controls=false&amp;fullScreenEnabled=false&amp;posterOnEnd=true&amp;loop=true&amp;poster=/assets/video/colour-animation.jpg&amp;src=colour-animation.m4v"	allowFullScreen="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_en" />
-                  <img alt="james-milton-color-animation" src="/assets/video/colour-animation.jpg" style="position:absolute;left:0;" width="100%" title="Video playback is not supported by your browser" />
-                  </object>
-                </video>
-            </div>
+            <div class="post-thumbnail"><img src="{{ site.baseurl }}{{ page.image }}" alt="{% if page.featured_image_alt %}{{ page.featured_image_alt }}{% else %}{{ page.title }}{% endif %}" /></div>
             <header class="entry-header">
-                <h2 class="entry-title">What makes me, me?</h2>
+                <h2 class="entry-title">Multi-disaplinary Designer with a Tech Background</h2>
             </header><!-- .entry-header -->
             <div class="entry-content">
                 {{content}}
@@ -33,6 +19,23 @@ layout: default
     </div>
     <section class="timeline">
       <ul class="listTimeline">
+        <li>
+          <div class="video-thumbnail">
+              <video autoplay loop muted playsinline poster="/assets/video/colour-animation.jpg" title="james-milton-color-animation">
+                <source src="/assets/video/colour-animation.m4v" type="video/mp4" />
+                <source src="/assets/video/colour-animation.webm" type="video/webm" />
+                <source src="/assets/video/colour-animation.ogv" type="video/ogg" />
+                <source src="/assets/video/colour-animation.mp4" />
+                <object type="application/x-shockwave-flash" data="/assets/video/flashfox.swf" width="720" height="720" style="position:relative;">
+                <param name="movie" value="/assets/video/flashfox.swf" />
+                <param name="allowFullScreen" value="true" />
+                <param name="flashVars" value="autoplay=true&amp;controls=false&amp;fullScreenEnabled=false&amp;posterOnEnd=true&amp;loop=true&amp;poster=/assets/video/colour-animation.jpg&amp;src=colour-animation.m4v" />
+                 <embed src="/assets/video/flashfox.swf" width="720" height="720" style="position:relative;"  flashVars="autoplay=true&amp;controls=false&amp;fullScreenEnabled=false&amp;posterOnEnd=true&amp;loop=true&amp;poster=/assets/video/colour-animation.jpg&amp;src=colour-animation.m4v"	allowFullScreen="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_en" />
+                <img alt="james-milton-color-animation" src="/assets/video/colour-animation.jpg" style="position:absolute;left:0;" width="100%" title="Video playback is not supported by your browser" />
+                </object>
+              </video>
+          </div>
+        </li>
         <li>
           <div>
             <h3>Red Bull Media House / Digital Product Specialist 👨‍💻</h3> <time>JULY 2019 - PRESENT, SALZBURG AUSTRIA 🇦🇹</time> Product-owner of ‘Beyond the Ordinary’ digital products for Red Bull. Designing, developing, and managing digital media for culture, sport, and product-related content on <a href="https://redbull.com" target="_blank">RedBull.com</a> and further digital platforms.

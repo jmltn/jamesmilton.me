@@ -5,6 +5,7 @@ image: /images/2017/12/prospectus2.jpg
 tags:
   - 🤷
 author: james
+hidden: true
 ---
 
 I was invited to be involved with the University of Sheffield's undergraduate recruitment campaign which is based around the concept of 'Explore, Challenge, Influence'.

@@ -58,16 +58,23 @@
 }
 .video-thumbnail {
     width: 100%;
-    overflow:hidden;
     display:block;
-    height: 97%;
-    margin-bottom: 3.75em;
+    border: 2px solid $lightblue;
+    color: $black;
+    line-height: 1.33333;
+    // margin: 1.25em 15px 1.875em 0;
+    padding: 1em 20px 1em 20px !important;
+    position: relative;
+    text-align: center;
+}
+
+.timeline ul li .video-thumbnail::before {
+  display: none;
 }
 
 .video-thumbnail video{
     display: block;
     margin: auto;
-    margin-top: -3%;
 
 }
 

@@ -87,6 +87,12 @@
     width: 50px;
     font-family: Inconsolata;
 }
+.homepageSocial{
+  position: absolute;
+  left: 10px;
+  z-index: 997;
+  top:10px;
+}
 
 #show-sidebar,
 #show-search {

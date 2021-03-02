@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Interactive Motion Graphic About Sleep
-image: /images/2019/01/rem-nrem.png
+image: /images/2021/whywesleep.gif
 tags:
   - 📼
   - 🎨

@@ -6,6 +6,8 @@ tags:
   - 📼
   - 🗺
 author: james
+hidden: true
+
 ---
 
 April 2017, I went hitchhiking across Eurpose with my two friends, Chris and Caitlin.

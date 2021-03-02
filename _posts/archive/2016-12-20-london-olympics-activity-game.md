@@ -5,6 +5,8 @@ image: /images/2016/12/gcse-graphics/gcsefront.jpg
 tags:
   - 🎨
 author: james
+hidden: true
+
 ---
 
 For my GCSE (aged 16) Graphics coursework, I created an 'Activity Games' pack, inspired by the then current 2012 London Olympics. Below are some images of the final outcome. The full development for this project can be found in the embedded pdf portfolio below.

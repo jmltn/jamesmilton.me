@@ -138,12 +138,13 @@
 
 	var prefix = '';
 	var skills = [
-	    'Designer',
-	    'Creator',
+	    'Digital Designer',
+	    '2D/3D Creator',
+			'VR/AR specialist',
 			'Video maker',
 			'Snowboarder',
 			'Guitarist',
-			'*Insert lame noun*'
+			'Motion designer'
 	].map(function (s) { return s; });
 	var delay = 10;
 	var step = 1;

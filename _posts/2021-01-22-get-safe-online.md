@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GetSafeOnline.org Motion Graphic
-image: "/images/2019/05/GetSafeOnlineScreenshot.png"
+image: "/images/2021/getsafeonline.gif"
 tags:
   - 📼
   - 🎨
@@ -18,9 +18,11 @@ Myself and my team recreated the videos into motion graphics, developed in Adobe
 
 ## Motion Graphic Prototypes
 
+<div class='embed-container'><iframe src='https://www.youtube.com/embed/NG_lLFoceBQ?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe></div>
+
 <div class='embed-container'><iframe src='https://www.youtube.com/embed/zAKLM2uOVB0?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe></div>
 
-<div class='embed-container'><iframe src='https://www.youtube.com/embed/NG_lLFoceBQ?autoplay=0&loop=1' frameborder='0' allowfullscreen></iframe></div>
+
 
 ## Project Portfolio
 

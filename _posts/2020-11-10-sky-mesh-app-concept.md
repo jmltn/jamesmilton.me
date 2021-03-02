@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sky Home Mesh - UX Design - App Concept
-image: /images/2018/12/skymeshthumbnail.png
+image: /images/2021/skymesh.gif
 tags:
   - 🎨
   - 📼
