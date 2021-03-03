@@ -3,8 +3,7 @@ layout: post
 title: GetSafeOnline.org Motion Graphic
 image: "/images/2021/getsafeonline.gif"
 tags:
-  - 📼
-  - 🎨
+  - Motion-Design
 author: james
 featured: true
 redirect_from:

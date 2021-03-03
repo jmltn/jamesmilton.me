@@ -3,7 +3,8 @@ layout: post
 title: My First Twitterbot
 image: /images/2017/11/mrinquisitor.png
 tags:
-  - 🤷
+  - Personal
+  - Code-Robotics
 author: james
 ---
 

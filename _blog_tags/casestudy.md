@@ -1,5 +1,5 @@
 ---
-title: Case Study
-tag: 📝
-permalink: "/tag/📝/"
+title: Case Studies
+tag: Case-Studies
+permalink: "/tag/Case-Studies/"
 ---

@@ -3,8 +3,7 @@ layout: post
 title: 1-800-HOTLINEBLING
 image: /images/2018/11/jamesBannerWhite2000-min.jpg
 tags:
-  - 🤷
-  - 🎨
+  - Personal
 hidden: true
 author: james
 ---

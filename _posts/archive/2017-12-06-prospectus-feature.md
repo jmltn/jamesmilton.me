@@ -3,7 +3,7 @@ layout: post
 title: University Prospectus Feature
 image: /images/2017/12/prospectus2.jpg
 tags:
-  - 🤷
+  - Personal
 author: james
 hidden: true
 ---

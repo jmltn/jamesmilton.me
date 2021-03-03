@@ -3,7 +3,7 @@ layout: post
 title: Solitaire Auto-Solve made with Haskell
 image: /images/2017/03/haskell/findmoves1.png
 tags:
-  - 💻
+  - Code-Robotics
 author: james
 ---
 

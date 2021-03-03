@@ -3,7 +3,7 @@ layout: post
 title: London Olympics Activity Game
 image: /images/2016/12/gcse-graphics/gcsefront.jpg
 tags:
-  - 🎨
+  - Graphic-Typographic-Design
 author: james
 hidden: true
 

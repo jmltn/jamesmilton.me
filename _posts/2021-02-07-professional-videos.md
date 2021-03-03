@@ -3,7 +3,7 @@ layout: post
 title: Professional Video Collection
 image: /images/2021/fretello.gif
 tags:
-  - 📼
+  - Motion-Design
 author: james
 featured: true
 ---

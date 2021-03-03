@@ -3,8 +3,7 @@ layout: post
 title: Interactive Motion Graphic About Sleep
 image: /images/2021/whywesleep.gif
 tags:
-  - 📼
-  - 🎨
+  - Motion-Design
 author: james
 featured: true
 redirect_from:

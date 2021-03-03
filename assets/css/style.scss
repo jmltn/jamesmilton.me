@@ -147,12 +147,12 @@ a.post-thumbnail:hover img {
 .entry-meta,
 .entry-footer,
 .post-inside .post-tags {
-    color: $gray;
-    font: 14px/1.5 $font-secondary;
+    color: $gray-dark;
+    font: 8px/1 $font-secondary;
 }
 
 .post-inside .post-tags {
-    font-size: 25px;
+    font-size: 15px;
     padding-right: 0;
     text-align: center;
 }
@@ -319,7 +319,7 @@ a.post-thumbnail:hover img {
 }
 
 .page-title .highlight {
-    color: $gray-dark;
+    color: $color-accent;
 }
 
 .page-description {

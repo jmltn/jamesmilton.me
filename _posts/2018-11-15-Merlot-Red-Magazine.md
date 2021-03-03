@@ -3,7 +3,7 @@ layout: post
 title: Merlot Red Magazine
 image: /images/2018/11/magazine/render/realspread1-min.png
 tags:
-  - 🎨
+  - Graphic-Typographic-Design
 author: james
 ---
 

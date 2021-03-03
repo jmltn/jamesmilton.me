@@ -7,8 +7,8 @@ redirect_from:
 - /cibse-technical-symposium-2019
 image: "/images/2021/shefvr.gif"
 tags:
-  - 🎨
-  - 💻
+  - 3D-Modelling
+  - Code-Robotics
 author: james
 featured: true
 

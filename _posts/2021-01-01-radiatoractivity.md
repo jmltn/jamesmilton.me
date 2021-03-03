@@ -3,9 +3,7 @@ layout: post
 title: Radiator Activity
 image: /images/2021/radiatoractivity/RA-KV-gif.gif
 tags:
- - 🎨
- - 💻
- - 📼  
+ - Personal 
 author: james
 ---
 

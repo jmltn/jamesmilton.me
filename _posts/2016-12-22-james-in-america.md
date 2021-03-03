@@ -3,7 +3,7 @@ layout: post
 title: American Road Trip Blog
 image: /images/2016/12/jamesinamerica-com.png
 tags:
-  - 🗺
+  - Personal
 author: james
 ---
 
