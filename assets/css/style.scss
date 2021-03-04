@@ -419,22 +419,31 @@ a.post-thumbnail:hover img {
  * 6.2 Grid Layout
  * ----------------------------------------------------------------------------
  */
-.post-wrapper,
-.post-wrapper .post {
+.post-wrapper {
+    width: 100%;
+    height: max-content;
+    column-count: 1;
     margin-bottom: 1.875em;
+
+    @media(min-width: 550px) {
+        column-count: 2;
+        column-gap: 1rem;
+    }
+
+    .post {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
 }
 
 .post-wrapper .post-inside {
     border: 2px solid $gray-dark;
-    opacity: 0;
     padding-bottom: 0.625em;
     -webkit-transition: opacity .3s ease-in-out;
     -moz-transition: opacity .3s ease-in-out;
     transition: opacity .3s ease-in-out;
-}
-
-.post-wrapper .post-inside.is--visible {
-    opacity: 1;
 }
 
 .post-wrapper .entry-header,
@@ -991,7 +1000,6 @@ a.post-thumbnail:hover img {
         position: absolute;
     }
 
-    .post-wrapper .post,
     #footer-widgets .widget-area {
         width: 100%;
     }
