@@ -532,12 +532,10 @@ blockquote.alignright {
 }
 
 /* Grid */
-.post-wrapper,
 .footer-columns {
     margin-left: -30px;
 }
 
-.post-wrapper .post,
 .footer-widgets .widget-area {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -550,7 +548,6 @@ blockquote.alignright {
     width: 100%;
 }
 
-.post-wrapper .post,
 .footer-widgets .widget-area:nth-child(1):nth-last-child(2),
 .footer-widgets .widget-area:nth-child(2):nth-last-child(1) {
     width: 50%;

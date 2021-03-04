@@ -18,44 +18,6 @@ function getRandomCharacter() {
 	return String.fromCharCode(Math.random() * (127 - 33) + 33);
 }
 
-const gridLayout = (function() {
-	const $container = $('#post-wrapper');
-	const $gridItems = $container.children().addClass('post--loaded');
-	let initialized = false;
-
-	function init() {
-		$container.masonry({
-			itemSelector: '.post',
-			columnWidth: '.post',
-			transitionDuration: 0
-		});
-		showItems($gridItems);
-		initialized = true;
-		$container.imagesLoaded(function() {
-			$container.masonry('layout');
-		});
-	}
-	function refresh() {
-		if (!initialized) {
-			init();
-			return;
-		}
-		$container.masonry('layout');
-	}
-	function showItems($gridItems) {
-		$gridItems.each(function(index, item) {
-			const $postInside = $(item).find('.post-inside');
-			animatePost($postInside, index * 100);
-		});
-	}
-	function animatePost($postInside, delay) {
-		setTimeout(function() {
-			$postInside.addClass('is--visible');
-		}, delay);
-	};
-	return { init, refresh };
-})();
-
 function typeSkills() {
 	function getRandomColoredString(numberOfCharacters) {
 	    const fragment = document.createDocumentFragment();
@@ -205,14 +167,6 @@ window.addEventListener('DOMContentLoaded', function() {
 
 	// Responsive videos
 	$('.post').fitVids();
-
-	// Grid layout
-	if (typeof $.fn.masonry === 'function' && $('#post-wrapper').length ) {
-		gridLayout.refresh();
-		$window.on('debouncedresize', () => {
-			gridLayout.refresh();
-		});
-	}
 
 	// Timeline event bindings
 	const IN_VIEW_CLASSNAME = 'in-view';
