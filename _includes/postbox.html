@@ -21,7 +21,7 @@
             </div><!-- .entry-meta -->
         </header><!-- .entry-header -->
         <div class="entry-content">
-            <p>{{ post.excerpt | strip_html | truncatewords:70 }} </p>
+            <p>{{ post.excerpt | strip_html | truncatewords:70 }} <a href="{{ post.url }}" rel="bookmark">More</a></p>
                 <p class="post-tags">
                     {% if post.tags.size > 0 %}
                     {% for tag in post.tags %}

@@ -31,12 +31,12 @@ function typeSkills() {
 	}
 
 	const SKILLS = [
-	    'Digital designer',
-	    '2D/3D creator',
-		'Motion designer',
-		'VR/AR specialist',
-		'Video maker',
-		'Snowboard sender',
+	  'Digital Designer',
+	  '2D/3D Creator',
+		'Motion Designer',
+		'VR/AR Specialist',
+		'Videographer',
+		'Snowboard Sender',
 		'Guitarist'
 	];
 	const COLORS = [
